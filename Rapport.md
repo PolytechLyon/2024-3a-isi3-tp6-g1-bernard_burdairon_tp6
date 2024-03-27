@@ -1,21 +1,29 @@
 # Compte Rendu du TP 1 : Patrons de Conceptions
 
-Noms des étudiants du binôme :
+Noms des étudiants du binôme : \
+BERNARD Alban \
+BURDAIRON Florian
 
-## Exercices 1
+## Exercice 1
+Le patron de conceptions mis en place s'appelle "Composite".
+Ici, `MobileObject` est le composant et `Vehicle` est le composite.
+Ce dernier contiendra des objets implémentant l'interface MobileObject.
 
-## Exercices 2
+Comme les méthodes `getVelocity()` et `getMass()` est déjà définie dans `Vehicle`, 
+il n'y a pas besoin de la récrire dans chaque classe implémentant `Vehicle`.
 
-## Exercices 3
+## Exercice 2
 
-## Exercices 4
+## Exercice 3
 
-## Exercices 5
+## Exercice 4
 
-## Exercices 6
+## Exercice 5
 
-## Exercices 7
+## Exercice 6
 
-## Exercices 8
+## Exercice 7
+
+## Exercice 8
 
 
