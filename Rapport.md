@@ -20,6 +20,11 @@ Celui-ci permet donc de remplacer la structure de donnée utilisée pour stocker
 
 ## Exercice 3
 
+Pour utiliser le patron de conception singleton, il faut :
+- Déclarer un attribut statique privé de la classe `Clock`, ici nommé `instance`, qui contiendra l'instance unique de la classe.
+- Déclarer un constructeur privé pour empêcher l'instanciation de la classe.
+- Déclarer une méthode statique publique qui retourne l'instance unique de la classe ou qui l'instancie si elle n'existe pas.
+
 ## Exercice 4
 
 ## Exercice 5
