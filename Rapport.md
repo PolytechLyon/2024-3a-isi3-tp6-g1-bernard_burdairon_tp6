@@ -31,10 +31,6 @@ Les deux classes `Bike` et `Wheel` ne sont pas dans le même paquetage. Il y a d
 `Wheel` utilise la méthode `getPush()` or cette fonction est déjà défini dans la classe abstraite `Vehicle` que `Bike` étend. De plus, cette classe abstraite se situe dans le même paquetage que `Wheel`.
 Afin de casser la dépendence cyclique, la classe `Wheel` peut utiliser la classe abstraite `Vehicle` au lieu de `Bike`, le comportement sera le même pour ce cas et permettra aux roues d'être associées à d'autres véhicules que les vélos.
 
-## Exercice 5
-
-**None
-
 ## Exercice 6
 
 ## Exercice 7
