@@ -33,6 +33,8 @@ Afin de casser la dépendence cyclique, la classe `Wheel` peut utiliser la class
 
 ## Exercice 6
 
+Le patron Singleton est utilisé pour s'assurer qu'une classe n'a qu'une seule instance, tandis que le patron Fabrique est utilisé pour créer des objets sans exposer la logique de création à l'utilisateur.
+
 ## Exercice 7
 
 ## Exercice 8
