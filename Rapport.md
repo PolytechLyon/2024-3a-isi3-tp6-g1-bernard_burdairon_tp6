@@ -1,4 +1,4 @@
-# Compte Rendu du TP 1 : Patrons de Conceptions
+# Compte Rendu du TP 6 : Patrons de Conceptions
 
 Noms des étudiants du binôme : \
 BERNARD Alban \
@@ -35,8 +35,11 @@ Afin de casser la dépendence cyclique, la classe `Wheel` peut utiliser la class
 
 Le patron Singleton est utilisé pour s'assurer qu'une classe n'a qu'une seule instance, tandis que le patron Fabrique est utilisé pour créer des objets sans exposer la logique de création à l'utilisateur.
 
-## Exercice 7
-
 ## Exercice 8
 
+Le patron de conception suivi par la classe `Context` est `Abstract Factory` car elle permet la création d'objet (de type abstrait) sans préciser à la création le type de la classe (fille) utilisée. \
+Il est possible de mettre plusieurs lignes dans le fichier `fr.polytech.sim.cycling.Bike`, chacune d'elle correspondra à une façon de créer l'objet. Il faudra alors utiliser la méthode `injectAll()` pour retourner toutes les valeurs possibles.
 
+## Exercice 9
+
+Afin de parcourir tous les objets, le patron de conception `Iterator` est utilisé.
